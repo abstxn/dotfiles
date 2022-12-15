@@ -100,6 +100,11 @@ _G.packer_plugins = {
     path = "/Users/abstxn/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/abstxn/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/abstxn/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -114,6 +119,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/abstxn/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/abstxn/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   }
 }
 

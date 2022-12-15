@@ -21,4 +21,9 @@ return require('packer').startup(function(use)
             require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
         end
     }
+    use {
+        "akinsho/toggleterm.nvim",
+        tag = 'v2.2.1'
+    }
+    use "windwp/nvim-autopairs"
 end)
