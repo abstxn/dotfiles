@@ -1,0 +1,13 @@
+#main-window #TabsToolbar {
+    height: 44px !important;
+    overflow: hidden;
+    transition: height .3s .3s !important;
+}
+
+#main-window[titlepreface*=" "] #TabsToolbar {
+    height: 0 !important;
+}
+
+#main-window[titlepreface*=" "] #tabbrowser-tabs {
+    z-index: 0 !important;
+}
