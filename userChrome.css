@@ -1,5 +1,5 @@
 #main-window #TabsToolbar {
-    height: 44px !important;
+    height: 40px !important;
     overflow: hidden;
     transition: height .3s .3s !important;
 }
