@@ -8,7 +8,7 @@ font:
 # Colors (Tomorrow Night)
 
 import:
-  - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+   - ~/.config/alacritty/themes/themes/Gruvbox-Dark.yml
 
 key_bindings:
   - { key: V, mods: Control, action: Paste}
