@@ -1,0 +1,21 @@
+# Font configuration
+font:
+  normal:
+    family: Iosevka Nerd Font
+    style: Regular
+  size: 12.0
+
+# Colors (Tomorrow Night)
+
+import:
+  - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+
+key_bindings:
+  - { key: V, mods: Control, action: Paste}
+  - { key: C, mods: Super, action: Copy} # Clashes with terminate
+
+window:
+  padding:
+    x: 4
+    y: 2
+
