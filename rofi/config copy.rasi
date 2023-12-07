@@ -1,0 +1,19 @@
+configuration {
+	modes: "window,drun,run,ssh,combi,emoji";
+	font: "JetBrainsMonoNL NF 12";
+	show-icons: true;
+	cycle: true;
+	combi-modes: "window,drun";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+/* @theme "~/.config/rofi/theme.rasi" */
+/* @import "~/.cache/wal/colors-rofi-dark" */
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
